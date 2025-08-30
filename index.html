@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>blackXmask</title>
+  <meta name="description" content="Official links for @blackxmask12 — Cybersecurity videos, tutorials and resources." />
+  <meta property="og:title" content="blackXmask — Cybersecurity" />
+  <meta property="og:description" content="Follow blackXmask for practical cybersecurity content." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#94a3b8;--accent:#06b6d4}
+    [data-theme="light"]{--bg:#f8fafc;--card:#ffffff;--muted:#475569;--accent:#0ea5a4}
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;color:var(--muted);background:linear-gradient(180deg,var(--bg),#020617);display:flex;align-items:center;justify-content:center;padding:32px}
+    .card{width:100%;max-width:780px;background:var(--card);border-radius:14px;padding:28px;box-shadow:0 10px 30px rgba(2,6,23,.6);color:inherit}
+    header{display:flex;align-items:center;gap:18px}
+    .avatar{width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:grid;place-items:center;color:#fff;font-weight:700;font-size:22px}
+    h1{margin:0;font-size:20px;color:inherit}
+    p.bio{margin:6px 0 0;color:var(--muted);font-size:13px}
+    .tags{margin-top:14px;display:flex;gap:8px;flex-wrap:wrap}
+    .tag{padding:6px 10px;background:rgba(255,255,255,0.03);border-radius:999px;font-size:12px;color:var(--muted)}
+    .links{display:grid;grid-template-columns:repeat(1,minmax(0,1fr));gap:12px;margin-top:18px}
+    @media(min-width:640px){.links{grid-template-columns:repeat(2,1fr)}}
+    .link-btn{display:flex;align-items:center;gap:12px;padding:12px;border-radius:10px;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(0,0,0,0.03));text-decoration:none;color:inherit;border:1px solid rgba(255,255,255,0.02)}
+    .link-icon{width:40px;height:40px;display:grid;place-items:center;border-radius:8px;background:rgba(255,255,255,0.03);font-weight:700}
+    .link-content{flex:1}
+    .link-title{margin:0;font-weight:600;color:var(--muted);font-size:15px}
+    .link-sub{margin:3px 0 0;font-size:12px;color:rgba(255,255,255,0.45)}
+    .actions{display:flex;gap:8px}
+    .btn{background:transparent;border:1px solid rgba(255,255,255,0.1);padding:6px 10px;border-radius:8px;color:var(--muted);cursor:pointer;font-size:12px;transition:all .2s ease}
+    .btn:hover{background:var(--accent);color:#fff}
+    .small{font-size:12px;padding:6px 8px}
+    footer{margin-top:16px;display:flex;align-items:center;justify-content:space-between;color:var(--muted)}
+    .theme-toggle{display:flex;gap:8px;align-items:center}
+    .copy-msg{position:fixed;left:50%;transform:translateX(-50%);bottom:34px;background:#111827;color:white;padding:10px 14px;border-radius:8px;display:none}
+  </style>
+</head>
+<body data-theme="dark">
+  <div class="card">
+    <header>
+      <!-- Avatar Image -->
+<div class="avatar">
+  <img src="dp.jpeg" alt="Profile DP">
+</div>
+
+<style>
+.avatar {
+  width: 80px;   /* adjust size */
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #4f46e5; /* nice border color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* keeps the image proportionate */
+}
+</style>
+
+      <div>
+        <h1>blackXmask</h1>
+        <p class="bio">Cybersecurity tips, short tutorials & exploit explainers — TikTok creator.</p>
+        <div class="tags">
+          <span class="tag">TikTok</span>
+          <span class="tag">Cybersecurity</span>
+          <span class="tag">Bug Bounty</span>
+          <span class="tag">Pentest</span>
+        </div>
+      </div>
+      <div style="margin-left:auto;display:flex;flex-direction:column;gap:8px;align-items:flex-end">
+        <div class="theme-toggle">
+          <button id="themeBtn" class="btn small">change theme</button>
+        </div>
+        <div style="font-size:12px;color:var(--muted)">Hack or Secure ↗</div>
+      </div>
+    </header>
+
+    <section class="links" aria-label="links">
+      <div class="link-btn">
+        <div class="link-icon">🎵</div>
+        <div class="link-content"><div class="link-title">TikTok</div><div class="link-sub">blackXmask — Short cyber tips</div></div>
+        <div class="actions">
+          <a href="https://www.tiktok.com/@blackxmask12" target="_blank" class="btn">Open</a>
+          <button class="btn" onclick="copyToClipboard('https://www.tiktok.com/@blackxmask12',event)">Copy</button>
+        </div>
+      </div>
+
+      <div class="link-btn">
+        <div class="link-icon">GH</div>
+        <div class="link-content"><div class="link-title">GitHub</div><div class="link-sub">Source, tools & projects</div></div>
+        <div class="actions">
+          <a href="https://github.com/blackxmask" target="_blank" class="btn">Open</a>
+          <button class="btn" onclick="copyToClipboard('https://github.com/blackxmask',event)">Copy</button>
+        </div>
+      </div>
+
+      <div class="link-btn">
+        <div class="link-icon">FL</div>
+        <div class="link-content"><div class="link-title">Freelancer</div><div class="link-sub">Hire me for pentesting & audits</div></div>
+        <div class="actions">
+          <a href="https://www.freelancer.com/get/abdullah29as?f=give" target="_blank" class="btn">Open</a>
+          <button class="btn" onclick="copyToClipboard('https://www.freelancer.com/get/abdullah29as?f=give',event)">Copy</button>
+        </div>
+      </div>
+
+      <div class="link-btn">
+        <div class="link-icon">▶️</div>
+        <div class="link-content"><div class="link-title">Coming Soon...</div><div class="link-sub">Long-form tutorials & walkthroughs</div></div>
+        <div class="actions">
+          <!-- <a href="https://www.youtube.com/@blackxmask" target="_blank" class="btn">Open</a>
+          <button class="btn" onclick="copyToClipboard('https://www.youtube.com/@blackxmask',event)">Copy</button> -->
+        </div>
+      </div>
+
+      <div class="link-btn">
+        <div class="link-icon">WAC</div>
+        <div class="link-content"><div class="link-title">WhatsApp Channel</div><div class="link-sub">Threads, quick updates</div></div>
+        <div class="actions">
+          <a href="https://whatsapp.com/channel/0029Vb5zVHiDTkK4DQoYQS3q" target="_blank" class="btn">Open</a>
+          <button class="btn" onclick="copyToClipboard('https://whatsapp.com/channel/0029Vb5zVHiDTkK4DQoYQS3q',event)">Copy</button>
+        </div>
+      </div>
+
+      <div class="link-btn">
+        <div class="link-icon">✉️</div>
+        <div class="link-content"><div class="link-title">Coming Soon...</div><div class="link-sub">Business & collabs</div></div>
+        <div class="actions">
+          <!-- <a href="mailto:blackxmask@example.com" class="btn">Open</a>
+          <button class="btn" onclick="copyToClipboard('mailto:blackxmask@example.com',event)">Copy</button> -->
+        </div>
+      </div>
+
+    </section>
+
+    <footer>
+      <div>Official <strong>blackXmask</strong></div>
+      <!-- <div style="font-size:12px;color:var(--muted)">Deploy: push this file to GitHub and enable Pages</div> -->
+    </footer>
+  </div>
+
+  <div id="copyMsg" class="copy-msg">Link copied to clipboard</div>
+
+  <script>
+    // Theme toggle
+    const body = document.body;
+    const themeBtn = document.getElementById('themeBtn');
+    themeBtn.addEventListener('click', ()=>{
+      const cur = body.getAttribute('data-theme');
+      body.setAttribute('data-theme', cur === 'dark' ? 'light' : 'dark');
+    });
+
+    // Copy helper
+    function copyToClipboard(text,event){
+      event.stopPropagation();
+      navigator.clipboard && navigator.clipboard.writeText(text).then(()=>{
+        const msg = document.getElementById('copyMsg');
+        msg.style.display='block';
+        setTimeout(()=>msg.style.display='none',1400);
+      }).catch(()=>alert('Copy failed — open link and copy manually'));
+    }
+  </script>
+</body>
+</html>
